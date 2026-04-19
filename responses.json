@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hey there!", "Hi bro!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye"],
+      "responses": ["Bye!", "See you later!"]
+    },
+    {
+      "tag": "status",
+      "patterns": ["how are you", "sup", "wassup", "what's going on"],
+      "responses": ["I am fine, what about you", "I am good"]
+    }
+  ]
+}
