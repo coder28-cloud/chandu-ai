@@ -18,17 +18,22 @@ It started as a 50-line Python terminal script. It evolved into a full-stack web
 
 ---
 
-## 🚀 Live Features
+## ✨ Live Features
 
 | Feature | Description |
 |---------|-------------|
 | 🧠 AI Conversation | Powered by LLaMA 3.1 8B via Groq API — fast, free, smart |
 | 💾 Memory System | Remembers your name, location, interests and mood automatically |
 | 🎭 Sentiment Detection | Tags every message as positive, negative or neutral in real time |
-| 🎤 Voice Input | Speak your message — Chrome's Speech Recognition transcribes it |
-| 💬 Multiple Sessions | Create, switch and persist multiple conversations like ChatGPT |
-| 🔄 Chat History | Conversations survive page refresh via localStorage |
 | 🌙 Dark UI | Clean dark sidebar with live memory panel and typing indicator |
+
+## 🔨 In Progress
+
+| Feature | Status |
+|---------|--------|
+| 🎤 Voice Input | Coming soon — Web Speech Recognition API |
+| 💬 Multiple Sessions | Coming soon — localStorage sessions |
+| 🔄 Chat History | Coming soon — persist across refresh |
 
 ---
 
