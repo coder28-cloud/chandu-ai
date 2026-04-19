@@ -40,7 +40,7 @@ It started as a 50-line Python terminal script. It evolved into a full-stack web
 ## 🖥️ Screenshots
 
 > Chandu replying with sentiment detection and memory panel live
-[Add a screenshot here — drag and drop an image into GitHub]
+![Chatbot UI](screenshot.png)
 
 ---
 
