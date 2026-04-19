@@ -193,11 +193,11 @@ Building this project taught me:
 
 **coder28-cloud**
 
-Built entirely from scratch — started knowing only Python, learned HTML, CSS and JavaScript while building this project.
+Started this project knowing only Python. Built the AI brain in chat.py first,
+then learned enough HTML, CSS and JavaScript to bring it to life as a web app.
+Currently deepening my frontend skills.
 
 > "Don't just learn to code. Build something."
-
----
 
 ## 📄 License
 
