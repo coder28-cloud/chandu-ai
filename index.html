@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandu AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="avatar">C</div>
+        <div class="bot-name">Chandu</div>
+        <div class="bot-status">
+          <span class="status-dot"></span> online
+        </div>
+      </div>
+
+      <div class="memory-section">
+        <div class="memory-label">Memory</div>
+        <div class="memory-item">
+          <div class="memory-key">name</div>
+          <div class="memory-value" id="mem-name">—</div>
+        </div>
+        <div class="memory-item">
+          <div class="memory-key">location</div>
+          <div class="memory-value" id="mem-location">—</div>
+        </div>
+        <div class="memory-item">
+          <div class="memory-key">interests</div>
+          <div class="memory-value" id="mem-interests">—</div>
+        </div>
+        <div class="memory-item">
+          <div class="memory-key">mood</div>
+          <div class="memory-value" id="mem-mood">—</div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="model-badge">llama-3.1-8b</div>
+        <button class="clear-btn" onclick="clearChat()">Clear chat</button>
+      </div>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div class="chat-area">
+
+      <!-- Header -->
+      <div class="chat-header">
+        <div class="header-avatar">C</div>
+        <div class="header-info">
+          <div class="header-name">Chandu</div>
+          <div class="header-sub">AI assistant · Groq powered</div>
+        </div>
+        <div class="header-right">
+          <span class="online-badge">● live</span>
+        </div>
+      </div>
+
+      <!-- Messages -->
+      <div class="messages" id="messages">
+        <div class="msg bot">
+          <div class="msg-avatar">C</div>
+          <div>
+            <div class="bubble">Hey! I'm Chandu, your personal AI assistant. What's on your mind?</div>
+            <div class="sentiment-tag sent-neutral">neutral</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input -->
+      <div class="input-area">
+        <div class="input-wrap">
+          <textarea
+            id="chatInput"
+            class="chat-input"
+            rows="1"
+            placeholder="Message Chandu..."
+            onkeydown="handleKey(event)"
+            oninput="autoResize(this)"
+          ></textarea>
+        </div>
+        <button class="send-btn" onclick="sendMessage()">
+          <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
